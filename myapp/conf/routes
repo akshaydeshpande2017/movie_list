@@ -25,7 +25,6 @@ GET     /public/*filepath                       Static.Serve("public")
 # without having to add them to the routes table.
 # *       /:controller/:action                    :controller.:action
 
-# GET     /UserSpecificMovie                        Movies.UserSpecificMovie
 GET     /Movie                                      Movies.List
 GET     /Movie/:movieName                           Movies.SearchMovie
 POST     /Create                                    Movies.CreateMovie
